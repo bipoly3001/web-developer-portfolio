@@ -99,6 +99,9 @@ nav a{
         max-width: 1140px; 
         margin:auto; 
     }
+    main section{
+        margin-top:130px;
+    }
     .about-info-container{
         display:flex;
         justify-content: space-around;
@@ -138,4 +141,90 @@ nav a{
             font-size: 20px;
             font-weight: 700;
             margin-top: 0px;
+            
         }
+
+        /* Skill description started */
+        #what-i-do-description{
+            padding: 30px 150px;            
+        }
+        .skill-container{
+            display:flex;
+            gap:24px;
+        }
+        
+        .skill{
+            padding:30px;          
+            border-radius: 5px;
+            background: #FFF;
+            box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+        }
+
+        .skill-description{
+            color: #757575;
+            font-size: 16px;            
+            font-weight: 400;            
+        }
+
+        /*  My resume style starts here */
+
+        .resume{
+            text-align: center; 
+        }
+        .resume-container hr{
+            margin:20px;
+        }
+
+        .resume-columm-title{
+            color: #474747;
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 10px;
+             }
+
+             .resume-container{
+                display:flex; 
+                gap: 50px; 
+             }
+             .resume-item-description{
+
+                color: #757575;
+                font-size: 16px;                
+                font-weight: 400;
+                margin-top: 10px;
+             }
+
+             .resume-item-institute{
+                color: #757575;                
+                font-size: 20px;
+                font-weight: 600;
+                margin-top: 10px;               
+
+             }
+
+             .resume-item-title{
+                color: #474747;
+                font-size: 25px;
+                font-weight: 700;
+             }
+             .downloadcv{
+                text-align: center;
+                margin-top: 30px;
+             }
+
+             /*  Footer style starts here */
+             footer{
+                display: flex;
+                background-color: #FFF8F3;
+                padding:130px 220px; 
+                gap:100px; 
+                margin-top: 100px;
+             }
+             .footer-columm{
+                width:50%; 
+             }
+
+             .contact input,textarea{
+                    display:block;
+                    margin-bottom: 25px;
+             }
