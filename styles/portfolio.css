@@ -1,14 +1,36 @@
-/* shared font style */
+/* shared font style across pages */
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* nav related works */
+/* nav related works start here*/
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
+/* header related style banner*/
+.header{
+        background: #FFF8F3;
+       }
+/* Banner after navbar in heading styling started here */
+    .banner{
+        padding:30px 30px 30px 150px;
+        display: flex;
+        align-items: center;
+    }
+
+    .banner-greeting{
+        color:#474747;
+        font-size: 45px;        
+        font-weight: 600;
+           }
+           
+    .profilepic{
+        width: 500px;
+        
+    }
 
 /* styling Bion in navbar */
 .nav-title{
