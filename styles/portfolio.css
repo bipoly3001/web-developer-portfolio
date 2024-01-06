@@ -13,18 +13,40 @@ nav{
 /* header related style banner*/
 .header{
         background: #FFF8F3;
+        background-image: url("../images/header_bg.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
        }
 /* Banner after navbar in heading styling started here */
     .banner{
-        padding:30px 30px 30px 150px;
+        padding:30px 30px 0px 150px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     .banner-greeting{
         color:#474747;
         font-size: 45px;        
         font-weight: 600;
+        margin-bottom:0px;
+           }
+
+        .banner-heading{
+            color:#181818; 
+            font-size: 85px;
+            font-weight: 700;
+            margin-top: 5px;
+            margin-bottom: 20px;
+           }
+
+           .banner-description{
+            color:#757575;
+            font-size: 18px;            
+            font-weight: 400;            
+           }
+           .banner-content{
+            max-width: 500px;
            }
            
     .profilepic{
@@ -70,3 +92,27 @@ nav a{
         color:#FFF; 
         padding:15px 35px; 
     }
+
+    /* main section starts here */
+    /* first one is about */
+
+    .about{
+        padding:130px; 
+        border-radius: 10px;
+        background: #FFF8F3;
+        margin: 130px;
+    }
+    .section-title{
+        color: #181818;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+            }
+        .section-description{
+            width: 827px;
+            margin: auto;
+            color: var(--Dark-03, #757575);
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;           
+        }
